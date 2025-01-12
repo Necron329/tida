@@ -1,7 +1,34 @@
-header{
+.HeaderSiteNameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    font-size: 30px;
-}
-.siteNameDiv{
-    width: auto;
-}
+    background-color: #000000; /* Tło dla headera */
+    color: #ffffff; /* Kolor tekstu */
+    padding: 0 20px; /* Odstępy wewnętrzne */
+    box-sizing: border-box; /* Uwzględnia padding w szerokości */
+  }
+  
+  /* Styl dla nazwy strony */
+.HeaderSiteNameContainer .DivSiteName {
+    font-size: 30px; /* Większa czcionka */
+    font-weight: bold;
+  }
+  
+  /* Styl dla nawigacji */
+.HeaderSiteNameContainer nav {
+    display: flex;
+    gap: 20px; /* Odstępy między elementami */
+  }
+  
+.HeaderSiteNameContainer nav a {
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: #61dafb; /* Kolor linków */
+    font-size: 1.2rem; /* Rozmiar czcionki */
+    transition: color 0.3s; /* Animacja na hover */
+  }
+  
+.HeaderSiteNameContainer nav a:hover {
+    color: #ffffff; /* Kolor po najechaniu */
+  }
+  
