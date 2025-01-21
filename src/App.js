@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./Pages/Home/Home";
 function App() {
     return (
       <div className="App">
