@@ -1,4 +1,4 @@
-.HeaderSiteNameContainer {
+Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,28 +7,36 @@
     color: #ffffff; /* Kolor tekstu */
     padding: 0 20px; /* Odstępy wewnętrzne */
     box-sizing: border-box; /* Uwzględnia padding w szerokości */
+    border-bottom: solid white 1px;
+    height: 5rem;
+    margin-bottom: 2rem;
   }
   
   /* Styl dla nazwy strony */
-.HeaderSiteNameContainer .DivSiteName {
+Header .TitleHolder {
     font-size: 30px; /* Większa czcionka */
     font-weight: bold;
+    border-right: solid white 1px;
+    height: 100%;
+    align-items: center;
+    display: flex;
   }
   
   /* Styl dla nawigacji */
-.HeaderSiteNameContainer nav {
+Header nav {
     display: flex;
     gap: 20px; /* Odstępy między elementami */
   }
   
-.HeaderSiteNameContainer nav a {
+Header nav a {
     text-decoration: none; /* Usunięcie podkreślenia */
     color: #61dafb; /* Kolor linków */
     font-size: 1.2rem; /* Rozmiar czcionki */
     transition: color 0.3s; /* Animacja na hover */
   }
   
-.HeaderSiteNameContainer nav a:hover {
+Header nav a:hover {
     color: #ffffff; /* Kolor po najechaniu */
+    cursor: pointer;
   }
   

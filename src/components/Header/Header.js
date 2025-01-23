@@ -3,13 +3,13 @@ import './Header.css';
 function Header() {
     return (
         <header className="HeaderSiteNameContainer">
-            <div className="DivSiteName">
+            <div className="TitleHolder">
             Welcome to the Film Renting Site
             </div>
             <nav>
-                <a>shop</a>
-                <a>support</a>
-                <a>cart</a>
+                <a href="/Shop">shop</a>
+                <a href="/Support">support</a>
+                <a href="/Cart">cart</a>
             </nav>
         </header>
     )
